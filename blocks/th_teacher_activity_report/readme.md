@@ -1,0 +1,25 @@
+# th_teacher_activity_report
+- Mô tả chung
+    - Tên plugin: th_teacher_activity_report
+    - Kiểu plugin: block
+    - Project: AOF
+    - Chức năng: Thông kê hoạt động của Giảng viên trong Khóa học
+    - Người phát triển: datdt720@wru.vn
+- Mô tả chi tiết
+    - Đầu vào: 
+        - **Ngày mở môn**
+        - **Môn học**
+        - **Giảng viên**
+        - **Từ ngày**
+        - **Đến ngày**
+    - Đầu ra bảng có các cột:
+        - **Họ và tên**
+        - **Vai trò**
+        - **Ngày mở môn**
+        - **Môn học**
+        - **Số lần đăng nhập Khóa học**
+        - **Đăng nhập lần cuối**
+        - **Số lần đăng/trả lời trên diễn đàn**
+        - **Số lần đăng thông báo**
+        - **Số lần trả lời câu hỏi mục hỏi đáp 24h**
+        - **Tổng số câu hỏi**

@@ -1,0 +1,23 @@
+<?php
+$string['pluginname'] = 'Login report';
+$string['th_vmc_loginreport:addinstance'] = 'Add a new th_vmc_loginreport block';
+$string['th_vmc_loginreport:myaddinstance'] = 'Add a new th_vmc_loginreport block to the My Moodle page';
+$string['th_vmc_loginreport:view'] = 'View Login Report';
+$string['textfields'] = 'Filter';
+$string['option'] = 'Select Option';
+$string['course'] = 'Course';
+$string['student'] = 'User';
+$string['submmit'] = 'Submit';
+$string['allcourseareas'] = 'Choose a course';
+$string['alluserareas'] = 'Choose a student';
+$string['content'] = 'Click the link below to view report';
+$string['linkreport'] = 'View Login report';
+$string['accessnumber'] = 'Access number';
+$string['enrollment'] = 'Enrollment';
+$string['no_access'] = 'No access to course';
+$string['actived'] = 'actived';
+$string['deactived'] = 'deactived';
+$string['not_activated'] = 'not activated';
+$string['completion'] = 'Completion';
+$string['no_completion'] = 'No Completion';
+$string['complete_status'] = 'Complete status';

@@ -1,0 +1,243 @@
+/**
+ * Container.
+ */
+.path-blocks-th_loginreport .gradeparent {
+    position: relative;
+}
+
+/**
+ * Tooltip and overlay.
+ */
+.path-blocks-th_loginreport .gradeparent .grader-information-tooltip {
+    min-width: 200px;
+}
+
+.path-blocks-th_loginreport .gradeparent .graderreportoverlay {
+    background-color: white;
+    width: auto;
+    padding: 10px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/**
+ * The table.
+ */
+.path-blocks-th_loginreport .gradeparent table {
+    border: 1px solid #ccc;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-bottom-width: 0;
+    border-right-width: 0;
+    margin-bottom: 2em;
+}
+
+/**
+ * All the cells.
+ */
+.path-blocks-th_loginreport .gradeparent .cell {
+    border: 1px solid #ccc;
+    border-top-width: 0;
+    border-left-width: 0;
+    padding: 4px 5px;
+    vertical-align: middle;
+    text-align: right;
+    white-space: nowrap;
+}
+
+/**
+ * Stripped table.
+ */
+.path-blocks-th_loginreport .gradeparent tr:nth-of-type(even) .cell {
+    background-color: #f9f9f9;
+}
+
+/**
+ * All the floating divs.
+ */
+.path-blocks-th_loginreport .gradeparent .floater {
+    display: none;
+}
+
+.path-blocks-th_loginreport .gradeparent .floating {
+    display: block;
+}
+
+/**
+ * All the headers + floating cells.
+ */
+.path-blocks-th_loginreport .gradeparent .heading .cell,
+.path-blocks-th_loginreport .gradeparent .avg .cell,
+.path-blocks-th_loginreport .gradeparent .user.cell {
+    font-size: 14px;
+    font-weight: normal;
+    text-align: left;
+}
+
+
+.path-blocks-th_loginreport .gradeparent .heading .cell,
+.path-blocks-th_loginreport .gradeparent th
+{
+    font-weight: bold;
+}
+
+/**
+ * All the floating cells.
+ */
+.path-blocks-th_loginreport .gradeparent .floater .cell {
+    background-color: #f9f9f9;
+}
+
+/**
+ * The user cells.
+ */
+.path-blocks-th_loginreport .gradeparent .user.cell {
+    min-width: 200px;
+    /*width: 200px;*/
+    width: auto;
+    white-space: normal;
+    vertical-align: top;
+}
+
+.path-blocks-th_loginreport .gradeparent .user.cell .userpicture {
+    margin: 0 4px;
+    border: none;
+    vertical-align: middle;
+}
+
+.path-blocks-th_loginreport .gradeitemheader {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+    vertical-align: bottom;
+}
+
+/**
+ * The additional user fields.
+ */
+.path-blocks-th_loginreport .gradeparent .userfield {
+    font-weight: normal;
+    text-align: left;
+}
+
+/**
+ * The footer's header.
+ */
+.path-blocks-th_loginreport .gradeparent .range .header,
+.path-blocks-th_loginreport .gradeparent .avg .header {
+    font-weight: bold;
+}
+
+/**
+ * The footer's floating cells.
+ */
+.path-blocks-th_loginreport .gradeparent .avg.floating .cell {
+    border-top-width: 1px;
+}
+
+/**
+ * The footer's cells.
+ */
+.path-blocks-th_loginreport .gradeparent .avg .cell {
+    text-align: right;
+}
+/**
+ * Content styling.
+ */
+.path-blocks-th_loginreport .gradeparent .heading .cell .iconsmall {
+    /* Fixes inconsistencies in cell height on IE. */
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.path-blocks-th_loginreport .gradeparent .sorticon {
+    margin-left: 3px;
+}
+
+.path-blocks-th_loginreport .gradeparent .gradevalue {
+    display: inline-block;
+}
+
+.path-blocks-th_loginreport span.gradepass {
+    color: #298721;
+}
+
+.path-blocks-th_loginreport span.gradefail {
+    color: #890d0d;
+}
+
+.path-blocks-th_loginreport .gradeparent tr:nth-child(n) td.overridden:nth-child(n) {
+    /* Made very specific to override the default stripped style of the table. */
+    background-color: #efd9a4;
+}
+
+.path-blocks-th_loginreport .gradeparent tr:nth-child(n) td.ajaxoverridden:nth-child(n) {
+    /* Made very specific to override the default stripped style of the table. */
+    background-color: #ffe3a0;
+}
+
+.path-blocks-th_loginreport .gradeparent .excludedfloater {
+    font-weight: bold;
+    color: red;
+    font-size: 9px;
+    float: left;
+}
+
+.grade-report .gradeparent .floater .controls.cell,
+.path-blocks-th_loginreport .gradeparent .controls {
+    background-color: #f3ead8;
+}
+
+.path-blocks-th_loginreport .gradeparent .category {
+    text-align: left;
+}
+
+/**
+ * Editing fields.
+ */
+.path-blocks-th_loginreport .gradeparent select {
+    margin: 0;
+    padding: 0;
+}
+
+.path-blocks-th_loginreport .gradeparent .text {
+    border: 1px solid #666;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.path-blocks-th_loginreport .gradeparent .quickfeedback {
+    border: 1px dashed #000;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+}
+
+.path-blocks-th_loginreport .yui3-overlay {
+    border: 0;
+    background: none;
+    background-color: inherit;
+    min-width: 200px;
+}
+
+.path-blocks-th_loginreport .yui3-overlay {
+    background-color: white;
+    width: auto;
+    padding: 10px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+.path-blocks-th_loginreport .gradeparent .headingcell {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    padding-right: 17px;
+}

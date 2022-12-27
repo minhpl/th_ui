@@ -1,0 +1,19 @@
+<?php
+$string['pluginname'] = 'Report Enrollment';
+$string['namereport'] = 'Report Enrollment';
+$string['find'] = 'Find';
+$string['id'] = 'No.';
+$string['day'] = 'Day';
+$string['allareas'] = 'Choose a course';
+$string['searcharea'] = 'Courses';
+$string['total'] = 'Total';
+$string['na'] = 'N/A';
+$string['th_enrollmentreport:view'] = 'View Report Account';
+$string['th_enrollmentreport:addinstance'] = 'Add a new th_enrollmentreport block';
+$string['th_enrollmentreport:myaddinstance'] = 'Add a new th_enrollmentreport block to the My Moodle page';
+$string['content'] = 'Click the link below to view report';
+$string['reportlink'] = 'View Enrollment report';
+$string['birthday'] = 'Birthday';
+$string['textfields'] = 'Filter';
+$string['enrol'] = 'Enrolment day';
+$string['enddate'] = 'Enrolments end date';

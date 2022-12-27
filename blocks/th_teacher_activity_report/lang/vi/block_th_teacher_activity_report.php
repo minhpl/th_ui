@@ -1,0 +1,31 @@
+<?php
+
+$string['th_teacher_activity_report:view'] = 'Xem Báo cáo hoạt động của Giảng viên';
+$string['th_teacher_activity_report:addinstance'] = 'Thêm khối Báo cáo hoạt động của Giảng viên';
+$string['th_teacher_activity_report:myaddinstance'] = 'Thêm khối Báo cáo hoạt động của Giảng viên mới vào trang Moodle của tôi';
+$string['th_teacher_activity_report:seeallthings'] = '';
+$string['heading'] = 'Báo cáo hoạt động của Giảng viên';
+$string['pluginname'] = 'Báo cáo hoạt động của Giảng viên';
+$string['content'] = 'Nhấp vào liên kết bên dưới để xem báo cáo';
+$string['view'] = 'Xem báo cáo';
+$string['no_select'] = 'Chưa chọn';
+$string['course_start_date'] = 'Ngày mở môn';
+$string['start_date'] = 'Từ ngày';
+$string['end_date'] = 'Đến ngày';
+$string['teacher'] = 'Tên Giảng viên';
+$string['option'] = 'Lựa chọn';
+$string['option_start_date'] = 'Ngày mở môn';
+$string['option_course'] = 'Môn học';
+$string['option_teacher'] = 'Tên Giảng viên';
+$string['hint'] = 'Thông kê các hoạt động trong khoảng thời gian được chọn bên dưới:';
+$string['no_select_course'] = 'Vui lòng Chọn Khóa học!';
+$string['no_select_user'] = 'Vui lòng Chọn Giảng viên!';
+$string['fullname'] = 'Họ và tên';
+$string['course'] = 'Môn học';
+$string['count_access_course'] = 'Số lần đăng nhập vào khóa học';
+$string['last_login'] = 'Đăng nhập lần cuối';
+$string['count_post_general'] = 'Số lần đăng/trả lời trên diễn đàn';
+$string['count_post_news'] = 'Số lần đăng thông báo';
+$string['count_answer_qaa'] = 'Số lần trả lời câu hỏi của học viên';
+$string['count_question_qaa'] = 'Tổng số câu hỏi học viên đặt';
+$string['no_access_course'] = 'Chưa truy cập';
