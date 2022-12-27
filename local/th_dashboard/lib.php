@@ -28,10 +28,12 @@ defined('MOODLE_INTERNAL') || die();
 require_once $CFG->dirroot . '/lib/adminlib.php';
 
 /**
- * Extend Navigation block and add options
+ * user_role_assignment function kiểm tra Tài khoản có quyền trong ngữ cảnh hệ thống không
  *
- * @param global_navigation $navigation {@link global_navigation}
- * @return void
+ * @param [int] $userid         id người dùng
+ * @param [int] $roleid         id quyền
+ * @param [int] $contextid      id ngữ cảnh
+ * @return [bool]               true có, false không
  */
 function user_role_assignment($userid, $roleid, $contextid = 0)
 {
@@ -60,6 +62,12 @@ function user_role_system($userid)
     return $roles;
 }
 
+/**
+ * local_th_dashboard_extend_navigation function 
+ *
+ * @param global_navigation $navigation
+ * @return void
+ */
 function local_th_dashboard_extend_navigation(global_navigation $navigation)
 {
     global $USER;
@@ -121,6 +129,12 @@ function local_th_dashboard_extend_navigation(global_navigation $navigation)
     }
 }
 
+/**
+ * update_role_node function vẽ lại cây th_dashboard
+ *
+ * @param custom_menu_item $menu
+ * @return void
+ */
 function update_role_node($menu)
 {
     if ($menu->has_children()) {
