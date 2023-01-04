@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die;
 
-$plugin->version      = 2022062907; // YYYYMMDDXX (year, month, day, 24-hr time)
+$plugin->version      = 2022062908; // YYYYMMDDXX (year, month, day, 24-hr time)
 $plugin->dependencies = array(
     'local_thlib' => '2021100000',
 );
